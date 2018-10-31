@@ -1,0 +1,249 @@
+@-webkit-keyframes fadeIn {
+	0% {
+	opacity: 0; /*初始状态 透明度为0*/
+	}
+	50% {
+	opacity: 0; /*中间状态 透明度为0*/
+	}
+	100% {
+	opacity: 1; /*结尾状态 透明度为1*/
+	}
+}
+@keyframes fadeIn {
+	0% {
+	opacity: 0; /*初始状态 透明度为0*/
+	}
+	50% {
+	opacity: 0; /*中间状态 透明度为0*/
+	}
+	100% {
+	opacity: 1; /*结尾状态 透明度为1*/
+	}
+}
+/* ANIMATION */
+@-webkit-keyframes scrollText1 {
+    0%{
+        -webkit-transform: translateY(0px);
+    }
+	22%{
+        -webkit-transform: translateY(0px);
+    }
+    33%{
+        -webkit-transform: translateY(-20px);
+    }
+    55%{
+        -webkit-transform: translateY(-20px);
+    }
+    66%{
+        -webkit-transform: translateY(-40px);
+    }
+    89%{
+        -webkit-transform: translateY(-40px);
+	}
+    100%{
+        -webkit-transform: translateY(-40px);
+    }
+}
+ 
+@keyframes scrollText1 {
+    0%{
+        transform: translateY(0px);
+    }
+	22%{
+        -webkit-transform: translateY(0px);
+    }
+    33%{
+        transform: translateY(-20px);
+    }
+    55%{
+        -webkit-transform: translateY(-20px);
+    }
+    66%{
+        transform: translateY(-40px);
+    }
+    89%{
+        transform: translateY(-40px);
+    }
+	99%{
+        transform: translateY(-40px);
+    }
+    100%{
+        transform: translateY(-40px);
+    }
+}
+
+@-webkit-keyframes scrollText2 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+         transform: translateY(-200px);
+    }
+
+}
+ 
+@keyframes scrollText2 {
+
+    from{
+        transform: translateY(0px);
+    }
+    to{
+         transform: translateY(-200px);
+    }
+    
+} 
+
+@-webkit-keyframes scrollText3 {
+    0%{
+        -webkit-transform: translateY(0px);
+    }
+    100%{
+        -webkit-transform: translateY(-360px);
+	}
+}
+ 
+@keyframes scrollText3 {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-360px);
+	}
+}
+
+@-moz-keyframes cycle {
+	0%  { top:7px; }
+	4%  { top:7px; } 
+	16% { top:7px; opacity:1; z-index:10; } 
+	20% { top:47px; opacity:0; z-index:10; } 
+	21% { top:-40px; opacity:0; z-index:-1; }
+	92% { top:-40px; opacity:0; z-index:10; }
+	96% { top:-40px; opacity:0; }
+	100%{ top:0px; opacity:1; }
+}
+@-moz-keyframes cycletwo {
+	0%  { top:-40; opacity:0; }
+	16% { top:-40px; opacity:0; }
+	20% { top:7px; opacity:1; }
+	24% { top:7px; opacity:1; } 
+	36% { top:7px; opacity:1; z-index:10; } 
+	40% { top:47px; opacity:0; z-index:10; }
+	41% { top:-40px; opacity:0; z-index:-1; } 
+	100%{ top:-40px; opacity:0; z-index:-1; }
+}
+@-moz-keyframes cyclethree {
+	0%  { top:-40px; opacity:0; }
+	36% { top:-40px; opacity:0; }
+	40% { top:7px; opacity:1; }
+	44% { top:7px; opacity:1; } 
+	56% { top:7px; opacity:1; } 
+	60% { top:47px; opacity:0; z-index:10; }
+	61% { top:-40px; opacity:0; z-index:-1; } 
+	100%{ top:-40px; opacity:0; z-index:-1; }
+}
+@-moz-keyframes chartSlideup{
+	0%{top:0px;}
+	100%{top:-180px;}
+}
+@-moz-keyframes chartSlidedown{
+	0%{top:180px;}
+	100%{top:10px;}
+}
+/*webkit*/
+@-webkit-keyframes cycle {
+	0%  { top:7px; }
+	30% { top:7px; }
+	39% { top:47px; opacity:1; z-index:0; }
+	40% { top:-40px; opacity:0; z-index:-1; }
+	96% { top:-40px; opacity:0; }
+	100%{ top:-40px; opacity:1; }
+	
+}
+@-webkit-keyframes cycletwo {
+	0%  { top:-40px; opacity:0; }
+	28% { top:-40px; opacity:0; z-index:-1;}
+	41% { top:7px; opacity:1; z-index:0;}
+	70% { top:7px;}
+	71% { top:47px; opacity:1; z-index:0; }
+	78% { top:-40px; opacity:0; z-index:-1; } 
+	100%{ top:-40px; opacity:0; z-index:-1; }
+}
+@-webkit-keyframes cyclethree {
+	0%  { top:-40px; opacity:0; }
+	60% { top:-40px;}
+	87% { top:7px; opacity:1; } 
+	98% { top:7px; opacity:1; z-index:0; }
+	99% { top:47px; opacity:0; z-index:0; } 
+	100% { top:-40px; opacity:0; z-index:0; } 
+}
+
+@-webkit-keyframes chartSlideup{
+	0%{top:0px;}
+	100%{top:-180px;}
+}
+@-webkit-keyframes chartSlidedown{
+	0%{top:180px;}
+	100%{top:10px;}
+}
+/*keyframes*/
+@keyframes cycle {
+	0%  { top:7px; }
+	30% { top:7px; }
+	39% { top:47px; opacity:1; z-index:0; }
+	40% { top:-40px; opacity:0; z-index:-1; }
+	96% { top:-40px; opacity:0; }
+	100%{ top:-40px; opacity:1; }
+	
+}
+@keyframes cycletwo {
+	0%  { top:-40px; opacity:0; }
+	28% { top:-40px; opacity:0; z-index:-1;}
+	41% { top:7px; opacity:1; z-index:0;}
+	70% { top:7px;}
+	71% { top:47px; opacity:1; z-index:0; }
+	78% { top:-40px; opacity:0; z-index:-1; } 
+	100%{ top:-40px; opacity:0; z-index:-1; }
+}
+@keyframes cyclethree {
+	0%  { top:-40px; opacity:0; }
+	60% { top:-40px;}
+	87% { top:7px; opacity:1; } 
+	98% { top:7px; opacity:1; z-index:0; }
+	99% { top:47px; opacity:0; z-index:0; } 
+	100% { top:-40px; opacity:0; z-index:0; } 
+}
+
+@keyframes chartSlideup{
+	0%{top:0px;}
+	100%{top:-180px;}
+}
+@keyframes chartSlidedown{
+	0%{top:180px;}
+	100%{top:10px;}
+}
+
+/*行情概况动画*/
+@keyframes hqSlidedown{
+	0%{top:40px;}
+	100%{top:0px;}
+}
+@-moz-keyframes hqSlidedown{
+	0%{top:40px;}
+	100%{top:0px;}
+}
+@-webkit-keyframes hqSlidedown{
+	0%{top:40px;}
+	100%{top:0px;}
+}
+@keyframes hqSlideUp{
+	0%{top:0px;}
+	100%{top:-40px;}
+}
+@-moz-keyframes hqSlideUp{
+	0%{top:0px;}
+	100%{top:-40px;}
+}
+@-webkit-keyframes hqSlideUp{
+	0%{top:0px;}
+	100%{top:-40px;}
+}
